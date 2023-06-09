@@ -1,0 +1,45 @@
+/**
+ * @name New kirigiri
+ * @author ShadowDevilsAvenged
+ * @description Newer kirigiri theme for my return
+ * @version 4.9
+ */
+@import url("https://raw.githack.com/abdelrahman1rezk/DiscordThemes/main/8-%20kirigiri/neture8.css"); /* Base of the theme */
+@import url('https://raw.githack.com/abdelrahman1rezk/DiscordThemes/main/8-%20kirigiri/HorizontalServerList.css'); /* Horizontal Server List */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin'); /* Discord Font */
+@import url('https://raw.githack.com/abdelrahman1rezk/DiscordThemes/main/8-%20kirigiri/RadialStatus.css'); /* Radial Status */
+:root {
+/* Theme and font settings */
+--themeColor1: #700DDCFF; /* Color of the theme */
+--themeColor2: #BA31E5FF; /* Color of the theme */
+--customFont: 'Pangolin'; /* Discord Font */
+/* Home Settings */
+--homeImage: url('https://media.discordapp.net/attachments/771487307017879553/1116766532899450880/danganhomebutton.png'); /* Home Button */
+--homeImageSize: cover;
+/* Background (Gif are allowed)*/
+--backgroundColor: rgb(45, 0, 71); /* Color of the background */
+--backgroundImage: url('https://media.discordapp.net/attachments/771487307017879553/1116766532559716382/danganback.gif'); /* Background GIF/PICTURE */
+--backgroundPosition: center; /* Position of the background */
+--backgroundSize: cover;
+--backgroundRepeat: no-repeat;
+--backgroundBlur: 0px; /* Add Blur or not to your background */
+--backgroundOpacity: 0.65; /* Change the Opacity of the background */
+/* Horizontal Server List */
+--HSL-server-icon-size: 40px; /* Server icon size */
+--HSL-server-spacing: 10px; /* Spacing between servers */
+/* Radial Status Settings */
+--rs-small-spacing: 2px;
+--rs-medium-spacing: 3px;
+--rs-large-spacing: 4px;
+--rs-small-width: 2px;
+--rs-medium-width: 3px;
+--rs-large-width: 4px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #43b581;
+--rs-idle-color: #faa61a;
+--rs-dnd-color: #f04747;
+--rs-offline-color: #636b75;
+--rs-streaming-color: #643da7;
+--rs-invisible-color: #747f8d;
+--rs-phone-visible: block;
+}
